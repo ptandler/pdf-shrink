@@ -2,12 +2,12 @@
 
 When a PDF is generated, or scanned, the resolution and file size is often much too high.
 
-There are many different options[^1], how to reduce PDF size, and depending on the concrete use case, 
+There are many different options[^askubuntu], how to reduce PDF size, and depending on the concrete use case, 
 the best option might be different.
 
 For me, the [solution using ghostscript suggested by Michael D and others](https://askubuntu.com/a/256449/592751) worked really good in many cases, so I wrote this simple script I use, so I don't need to remember the parameters.
 
-[^1]: e.g. https://askubuntu.com/q/113544/592751
+[^askubuntu]: e.g. https://askubuntu.com/q/113544/592751
 
 
 ## Usage
@@ -16,7 +16,8 @@ For me, the [solution using ghostscript suggested by Michael D and others](https
 pdf-shrink.sh <settings>[:<dpi>] <input> [<output>]
 ```
 
-<output> is optional, settings will be appended to filename
+<output> is optional, settings will be appended to filename, so it's easy to try & compare
+different options.
 
 <settings> can be ghostscript's PDFSETTINGS options:
 
