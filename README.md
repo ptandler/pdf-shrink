@@ -38,8 +38,8 @@ pdf-shrink.sh <settings>[:<dpi>] <input> [<output>]
 I cloned this repo and created a symlink for `pdf-shrink.sh` in my bin, e.g. something like :
 
 ```bash
-git clone ...
-ln -s pdf-shrink.sh ~/bin
+git clone https://github.com/ptandler/pdf-shrink.git
+ln -s $(realpath pdf-shrink/pdf-shrink.sh) ~/bin
 ```
 
 
