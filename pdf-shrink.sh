@@ -68,7 +68,7 @@ dpi=${parts[1]}
 base=$(basename "$input")
 name="${base%.*}"
 ext="${base##*.}"
-output="${name}-${settings}.${ext}"
+output="${name}-${settings//:/-}.${ext}"
 
 # Prepare basic ghostscript options
 options="-sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH"
