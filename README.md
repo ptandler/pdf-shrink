@@ -20,11 +20,11 @@ pdf-shrink.sh <settings>[:<dpi>] <input> [<output>]
 
 <settings> can be ghostscript's PDFSETTINGS options:
 
--     screen   - lower quality, smaller size. (72 dpi)
--     ebook    - for better quality, but slightly larger pdfs. (150 dpi)
--     prepress - output similar to Acrobat Distiller "Prepress Optimized" setting (300 dpi)
--     printer  - selects output similar to the Acrobat Distiller "Print Optimized" setting (300 dpi)
--     default  - selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file
+- screen   - lower quality, smaller size. (72 dpi)
+- ebook    - for better quality, but slightly larger pdfs. (150 dpi)
+- prepress - output similar to Acrobat Distiller "Prepress Optimized" setting (300 dpi)
+- printer  - selects output similar to the Acrobat Distiller "Print Optimized" setting (300 dpi)
+- default  - selects output intended to be useful across a wide variety of uses, possibly at the expense of a larger output file
 
  <dpi> is optional, e.g. 150 for 150 dpi
 
