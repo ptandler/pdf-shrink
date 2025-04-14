@@ -71,7 +71,7 @@ ext="${base##*.}"
 output="${name}-${settings//:/-}.${ext}"
 
 # Prepare basic ghostscript options
-options="-sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH"
+options="-sDEVICE=pdfwrite -dCompatibilityLevel=1.6 -dNOPAUSE -dQUIET -dBATCH"
 
 # Add dpi option if specified
 if [ ! -z "$dpi" ]; then
